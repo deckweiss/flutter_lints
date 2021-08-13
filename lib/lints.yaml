@@ -1,0 +1,18 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - always_declare_return_types
+    - prefer_single_quotes
+    - cancel_subscriptions
+    - literal_only_boolean_expressions
+    - throw_in_finally
+    - always_put_control_body_on_new_line
+    - always_put_required_named_parameters_first
+    - avoid_multiple_declarations_per_line
+    - avoid_unused_constructor_parameters
+    - avoid_void_async
+    - directives_ordering
+    - unnecessary_parenthesis
+    - sort_pub_dependencies
+    - sort_child_properties_last
