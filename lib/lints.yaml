@@ -1,5 +1,27 @@
 include: package:lints/recommended.yaml
 
+analyzer:
+  plugins:
+    - dart_code_metrics
+
+dart-code-metrics:
+  anti-patterns:
+    - long-method
+  rules:
+    - avoid-ignoring-return-values
+    - member-ordering-extended:
+        order:
+          - fields
+          - constructors
+          - getters-setters
+          - public-methods
+          - private-methods
+    - no-empty-block
+    - no-equal-then-else
+    - no-magic-number
+    - prefer-conditional-expressions 
+    - prefer-match-file-name
+
 linter:
   rules:
     - always_declare_return_types
