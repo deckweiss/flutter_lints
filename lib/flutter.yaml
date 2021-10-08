@@ -1,8 +1,31 @@
 include: package:flutter_lints/flutter.yaml
 
 analyzer:
+  plugins:
+    - dart_code_metrics
   errors:
     use_key_in_widget_constructors: ignore
+
+dart_code_metrics:
+  rules:
+    - avoid-ignoring-return-values
+    - member-ordering-extended:
+        order:
+          - fields
+          - constructors
+          - getters-setters
+          - public-methods
+          - private-methods
+    - no-empty-block
+    - no-equal-then-else
+    - no-magic-number
+    - prefer-conditional-expressions 
+    - prefer-match-file-name
+    
+    # flutter specific
+    - always-remove-listener
+    - prefer-const-border-radius
+    - prefer-extracting-callbacks
 
 linter:
   rules:
