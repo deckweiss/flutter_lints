@@ -1,6 +1,6 @@
 name: deckweiss_lints
 description: Official Deckweiss lint rules.
-version: 1.0.0-dev.0
+version: 1.0.0-dev.1
 homepage: https://github.com/daniellampl/deckweiss_lints
 repository: https://github.com/daniellampl/deckweiss_lints
 
