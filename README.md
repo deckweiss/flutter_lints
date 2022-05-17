@@ -1,20 +1,36 @@
 # Deckweiss lint rules
 
-This package contains all lint rules used by Deckweiss. It is considered 
-an expansion of the [lints] and [flutter_lints] packages.
+This package provides the Dart and Flutter lint rules used by [Deckweiss]🧡
 
-There are two sets of lints available:
-
-* **lints**: Lints for dart applications. 
-
-* **flutter**: Lints for flutter applications.
-
+It is considered an expansion of the [very_good_analysis] with a few small customizations.
 ## Usage
 
-Create an `analysis_options.yaml` file at the root of your package or application 
-and add either `include: package:deckweiss_lints/flutter.yaml` or 
-`include: package:deckweiss_lints/lints.yaml` at the top of it.
+To use this package simply add `deckweiss_lints` to the `dev_dependencies` of your projects's `pubspec.yaml` file:
 
+```yaml
+dev_dependencies:
+  deckweiss_lints: ^1.0.0
+```
 
-[lints]: https://pub.dev/packages/lints
-[flutter_lints]: https://pub.dev/packages/flutter_lints
+This could also be done by calling:
+
+```sh
+flutter pub add deckweiss_lints --dev
+```
+
+Then simply include it in your `analysis_options.yaml` file. 
+
+```yaml
+# If you want to use the latest available deckweiss_lints ruleset
+include: package:deckweiss_lints/deckweiss_lints.yaml
+
+# If you want to use a specific version of the deckweiss_lints ruleset
+include: package:deckweiss_lints/deckweiss_lints.1.0.0.yaml
+```
+
+### Excluded files
+- `/**.g.dart`
+- `/**.freezed.dart`
+
+[Deckweiss]: https://deckweiss.at
+[very_good_analysis]: https://pub.dev/packages/very_good_analysis

@@ -1,7 +1,11 @@
-## 1.0.0-dev.1
-
-- Added dart_code_metrics rule set
-
-## 1.0.0-dev.0
-
-- Initial version
+## 1.0.0
+- feat: use `very_good_analysis` as base ruleset
+- feat: exclude rules:
+    - [cascade_invocations](https://dart-lang.github.io/linter/lints/cascade_invocations.html)
+    - [one_member_abstracts](https://dart-lang.github.io/linter/lints/one_member_abstracts.html)
+    - [public_member_api_docs](https://dart-lang.github.io/linter/lints/public_member_api_docs.html)
+- feat: add rules:
+    - [avoid_multiple_declarations_per_line](https://dart-lang.github.io/linter/lints/avoid_multiple_declarations_per_line.html)
+- feat: exclude files:
+    - `/**.g.dart`
+    - `/**.freezed.dart`
