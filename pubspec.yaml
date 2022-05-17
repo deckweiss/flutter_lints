@@ -6,6 +6,3 @@ repository: https://github.com/deckweiss-gmbh/deckweiss_lints
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
-
-dev_dependencies:
-  very_good_analysis: ^3.0.0
