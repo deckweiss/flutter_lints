@@ -1,0 +1,12 @@
+include: package:very_good_analysis/analysis_options.3.0.0.yaml
+linter:
+  rules:
+    avoid_multiple_declarations_per_line: true
+    cascade_invocations: false
+    one_member_abstracts: false
+    public_member_api_docs: false
+
+analyzer:
+  exclude:
+    - lib/**.g.dart
+    - lib/**.freezed.dart

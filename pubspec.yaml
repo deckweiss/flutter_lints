@@ -1,15 +1,11 @@
 name: deckweiss_lints
-description: Official Deckweiss lint rules.
+description: Official Deckweiss linting rules for Flutter.
 version: 1.0.0-dev.1
-homepage: https://github.com/daniellampl/deckweiss_lints
-repository: https://github.com/daniellampl/deckweiss_lints
+homepage: https://github.com/deckweiss-gmbh/deckweiss_lints
+repository: https://github.com/deckweiss-gmbh/deckweiss_lints
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
-
-dependencies:
-  flutter_lints: ^1.0.4
-  lints: ^1.0.1
+  sdk: ">=2.17.0 <3.0.0"
 
 dev_dependencies:
-  dart_code_metrics: ^4.4.0 
+  very_good_analysis: ^3.0.0
