@@ -8,5 +8,5 @@ linter:
 
 analyzer:
   exclude:
-    - lib/**.g.dart
-    - lib/**.freezed.dart
+    - /**.g.dart
+    - /**.freezed.dart
