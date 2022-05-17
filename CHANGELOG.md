@@ -1,5 +1,9 @@
+## 1.0.0+1
+- fix: copy rules form `very_good_analysis` instead of including it.
+- feat: remove [package_api_docs](https://dart-lang.github.io/linter/lints/package_api_docs.html)
+
 ## 1.0.0
-- feat: use `very_good_analysis` as base ruleset
+- feat: include `very_good_analysis` as base ruleset
 - feat: exclude rules:
     - [cascade_invocations](https://dart-lang.github.io/linter/lints/cascade_invocations.html)
     - [one_member_abstracts](https://dart-lang.github.io/linter/lints/one_member_abstracts.html)

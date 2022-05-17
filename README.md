@@ -2,7 +2,7 @@
 
 This package provides the Dart and Flutter lint rules used by [Deckweiss]🧡
 
-It is considered an expansion of the [very_good_analysis] with a few small customizations.
+It is highly influenced by [very_good_analysis] with a few small customizations.
 ## Usage
 
 To use this package simply add `deckweiss_lints` to the `dev_dependencies` of your projects's `pubspec.yaml` file:
