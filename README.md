@@ -9,7 +9,7 @@ To use this package simply add `deckweiss_lints` to the `dev_dependencies` of yo
 
 ```yaml
 dev_dependencies:
-  deckweiss_lints: ^1.0.0
+  deckweiss_lints: ^1.0.1
 ```
 
 This could also be done by calling:
@@ -25,7 +25,7 @@ Then simply include it in your `analysis_options.yaml` file.
 include: package:deckweiss_lints/deckweiss_lints.yaml
 
 # If you want to use a specific version of the deckweiss_lints ruleset
-include: package:deckweiss_lints/deckweiss_lints.1.0.0.yaml
+include: package:deckweiss_lints/deckweiss_lints.1.0.1.yaml
 ```
 
 ### Excluded files

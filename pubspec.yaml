@@ -1,6 +1,6 @@
 name: deckweiss_lints
 description: Official Deckweiss linting rules for Flutter.
-version: 1.0.0+1
+version: 1.0.1
 homepage: https://github.com/deckweiss-gmbh/deckweiss_lints
 repository: https://github.com/deckweiss-gmbh/deckweiss_lints
 
